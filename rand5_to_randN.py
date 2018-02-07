@@ -108,3 +108,10 @@ if __name__ == "__main__":
     assert(abs(count_1s - 10000) < 200)
     assert(abs(count_half_Ns - 10000) < 200)
     assert(abs(count_Ns - 10000) < 200)
+
+
+    '''
+    Emmm, the complexity for randN is not high since the recursive function won't be deep.
+    But the performance of UT is a little bit poor for Python. /facepalm
+    If you want to see the count result for n larger than 625, even 625^2, please decrease the loop amount for UT. /facepalm
+    '''
